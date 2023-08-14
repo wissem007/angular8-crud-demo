@@ -14,8 +14,8 @@ spec:  # What state you desire for the object
     spec:
       containers:
         - name: angular-k8s-deployment
-          image: angular-app:latest
-          imagePullPolicy: Never
+          image: wissem007/angular_crud:v7
+          imagePullPolicy: Always
           ports:
             - containerPort: 80
 ---
